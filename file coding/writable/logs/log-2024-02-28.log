@@ -1,0 +1,503 @@
+CRITICAL - 2024-02-28 00:30:50 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ukk_richard\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ukk_richard\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(114): CodeIgniter\Model->__call('input', Array)
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#4 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-28 00:31:35 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ukk_richard\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ukk_richard\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(114): CodeIgniter\Model->__call('input', Array)
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#4 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-28 00:31:42 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ukk_richard\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ukk_richard\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(114): CodeIgniter\Model->__call('input', Array)
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#4 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-28 00:41:03 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ukk_richard\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ukk_richard\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(114): CodeIgniter\Model->__call('input', Array)
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#4 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-28 00:42:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ukk_richard\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ukk_richard\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(114): CodeIgniter\Model->__call('input', Array)
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#4 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-28 00:43:08 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ukk_richard\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ukk_richard\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(114): CodeIgniter\Model->__call('input', Array)
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#4 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-28 00:45:07 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ukk_richard\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ukk_richard\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(116): CodeIgniter\Model->__call('input', Array)
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#4 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-02-28 00:45:32 --> Column 'kode_barang' cannot be null
+ERROR - 2024-02-28 00:45:32 --> Column 'jumlah' cannot be null
+ERROR - 2024-02-28 00:46:05 --> Column 'kode_barang' cannot be null
+ERROR - 2024-02-28 00:46:05 --> Column 'jumlah' cannot be null
+ERROR - 2024-02-28 00:47:06 --> Column 'kode_barang' cannot be null
+ERROR - 2024-02-28 00:47:06 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 00:47:44 --> Column 'kode_barang' cannot be null
+ERROR - 2024-02-28 00:47:44 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 00:48:32 --> Column 'kode_barang' cannot be null
+ERROR - 2024-02-28 00:48:32 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 00:49:53 --> Unknown column 'nama_barang' in 'field list'
+CRITICAL - 2024-02-28 00:59:46 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ukk_richard\app\Views\filter.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\ukk_richard\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_richard\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_richard\system\Common.php(1089): CodeIgniter\View\View->render('filter', Array, true)
+#4 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(168): view('filter', Array)
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->laporan_pdf()
+#6 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-28 01:26:00 --> Unknown column 'barang' in 'field list'
+ERROR - 2024-02-28 01:28:57 --> Unknown column 'jumlah' in 'where clause'
+CRITICAL - 2024-02-28 01:28:57 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(119): App\Models\M_model->getWhere2('barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:29:43 --> Unknown column 'jumlah' in 'where clause'
+CRITICAL - 2024-02-28 01:29:43 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(119): App\Models\M_model->getWhere2('barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:29:49 --> Unknown column 'jumlah' in 'where clause'
+CRITICAL - 2024-02-28 01:29:49 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(119): App\Models\M_model->getWhere2('barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:30:12 --> Table 'ukk_kasir.id_barang' doesn't exist
+CRITICAL - 2024-02-28 01:30:12 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(119): App\Models\M_model->getWhere2('id_barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:32:09 --> Table 'ukk_kasir.id_barang' doesn't exist
+CRITICAL - 2024-02-28 01:32:09 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(119): App\Models\M_model->getWhere2('id_barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:40:27 --> Table 'ukk_kasir.id_barang' doesn't exist
+CRITICAL - 2024-02-28 01:40:27 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(119): App\Models\M_model->getWhere2('id_barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:41:58 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 01:54:39 --> Table 'ukk_kasir.id_barang' doesn't exist
+CRITICAL - 2024-02-28 01:54:39 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(111): App\Models\M_model->getWhere2('id_barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:55:13 --> Table 'ukk_kasir.nama_barang' doesn't exist
+CRITICAL - 2024-02-28 01:55:13 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(111): App\Models\M_model->getWhere2('nama_barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:55:19 --> Unknown column 'jumlah' in 'where clause'
+CRITICAL - 2024-02-28 01:55:19 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(111): App\Models\M_model->getWhere2('barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:55:20 --> Unknown column 'jumlah' in 'where clause'
+CRITICAL - 2024-02-28 01:55:20 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(111): App\Models\M_model->getWhere2('barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:57:07 --> Table 'ukk_kasir.id_barang' doesn't exist
+CRITICAL - 2024-02-28 01:57:07 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(111): App\Models\M_model->getWhere2('id_barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:57:31 --> Table 'ukk_kasir.id_barang' doesn't exist
+CRITICAL - 2024-02-28 01:57:31 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(111): App\Models\M_model->getWhere2('id_barang', Array)
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->p_t_barang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 01:58:25 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 01:59:37 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 01:59:57 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 02:04:07 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 02:14:50 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 02:15:44 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 02:16:19 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 02:17:55 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 19:05:59 --> Table 'ukk_kasir.log' doesn't exist
+CRITICAL - 2024-02-28 19:05:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(276): App\Models\M_model->join('log', 'barang_masuk', 'log.id_barang_m...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->activity()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:14:27 --> Table 'ukk_kasir.keranjang' doesn't exist
+ERROR - 2024-02-28 19:14:27 --> Table 'ukk_kasir.keranjang' doesn't exist
+CRITICAL - 2024-02-28 19:14:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(330): App\Models\M_model->tampil('keranjang')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-28 19:15:44 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ukk_richard\app\Views\keranjang.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ukk_richard\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_richard\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_richard\system\Common.php(1089): CodeIgniter\View\View->render('keranjang', Array, true)
+#4 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(333): view('keranjang')
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#6 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-28 19:16:11 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2024-02-28 19:16:11 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ukk_richard\app\Views\keranjang.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ukk_richard\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ukk_richard\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ukk_richard\system\Common.php(1089): CodeIgniter\View\View->render('keranjang', Array, true)
+#4 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(333): view('keranjang')
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#6 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-28 19:16:38 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2024-02-28 19:17:21 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2024-02-28 19:21:16 --> Unknown column 'harga' in 'field list'
+ERROR - 2024-02-28 19:21:39 --> Table 'ukk_kasir.log' doesn't exist
+CRITICAL - 2024-02-28 19:21:39 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(277): App\Models\M_model->join('log', 'barang_masuk', 'log.id_barang_m...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->activity()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:21:45 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2024-02-28 19:24:11 --> Unknown column 'keranjang.id_barang' in 'on clause'
+CRITICAL - 2024-02-28 19:24:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(331): App\Models\M_model->join('keranjang', 'barang', 'keranjang.id_ba...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:31:46 --> Unknown column 'id_barang' in 'field list'
+ERROR - 2024-02-28 19:31:46 --> Unknown column 'keranjang.id_barang' in 'on clause'
+CRITICAL - 2024-02-28 19:31:46 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(333): App\Models\M_model->join('keranjang', 'barang', 'keranjang.id_ba...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:32:52 --> Unknown column 'id_barang' in 'field list'
+ERROR - 2024-02-28 19:33:28 --> Unknown column 'keranjang.id_barang' in 'on clause'
+CRITICAL - 2024-02-28 19:33:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(333): App\Models\M_model->join('keranjang', 'barang', 'keranjang.id_ba...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:36:22 --> Unknown column 'keranjang.id_barang' in 'on clause'
+CRITICAL - 2024-02-28 19:36:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(333): App\Models\M_model->join('keranjang', 'barang', 'keranjang.id_ba...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:41:34 --> Column 'id_barang' cannot be null
+ERROR - 2024-02-28 19:42:21 --> Column 'nama_barang' cannot be null
+ERROR - 2024-02-28 19:44:00 --> Table 'ukk_kasir.log' doesn't exist
+CRITICAL - 2024-02-28 19:44:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(277): App\Models\M_model->join('log', 'barang_masuk', 'log.id_barang_m...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->activity()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:44:19 --> Table 'ukk_kasir.log' doesn't exist
+CRITICAL - 2024-02-28 19:44:19 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(277): App\Models\M_model->join('log', 'barang_masuk', 'log.id_barang_m...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->activity()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:44:22 --> Table 'ukk_kasir.log' doesn't exist
+CRITICAL - 2024-02-28 19:44:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(277): App\Models\M_model->join('log', 'barang_masuk', 'log.id_barang_m...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->activity()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:44:50 --> Table 'ukk_kasir.log' doesn't exist
+CRITICAL - 2024-02-28 19:44:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(277): App\Models\M_model->join('log', 'barang_masuk', 'log.id_barang_m...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->activity()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:44:51 --> Table 'ukk_kasir.log' doesn't exist
+CRITICAL - 2024-02-28 19:44:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(277): App\Models\M_model->join('log', 'barang_masuk', 'log.id_barang_m...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->activity()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:44:51 --> Table 'ukk_kasir.log' doesn't exist
+CRITICAL - 2024-02-28 19:44:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(277): App\Models\M_model->join('log', 'barang_masuk', 'log.id_barang_m...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->activity()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 19:44:55 --> Table 'ukk_kasir.log' doesn't exist
+CRITICAL - 2024-02-28 19:44:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(277): App\Models\M_model->join('log', 'barang_masuk', 'log.id_barang_m...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->activity()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-28 20:07:16 --> syntax error, unexpected '$column' (T_VARIABLE)
+#0 C:\xampp\htdocs\ukk_richard\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/laporan_ba...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/laporan_ba...')
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-28 20:15:17 --> syntax error, unexpected 'date' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\ukk_richard\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ukk_richard\system\Common.php(1089): CodeIgniter\View\View->render('activity', Array, true)
+#2 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(324): view('activity', Array)
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->activity()
+#4 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-28 20:49:55 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 20:50:02 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 20:51:52 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 20:51:57 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 20:51:58 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 20:51:59 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 20:51:59 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 20:52:03 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 20:52:33 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 20:59:10 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 21:00:34 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 21:00:40 --> Too few arguments to function App\Controllers\Home::edit_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-02-28 21:04:06 --> Too few arguments to function App\Controllers\Home::delete_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->delete_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2024-02-28 22:15:28 --> Unknown column 'keranjang.id_barang' in 'on clause'
+CRITICAL - 2024-02-28 22:15:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(376): App\Models\M_model->join('keranjang', 'barang', 'keranjang.id_ba...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-28 22:38:16 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 22:38:48 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 22:39:30 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-02-28 22:40:29 --> Unknown column 'id_barang' in 'field list'
+ERROR - 2024-02-28 22:41:10 --> Unknown column 'id_barang' in 'field list'
+ERROR - 2024-02-28 22:42:52 --> Unknown column 'id_barang' in 'field list'
+ERROR - 2024-02-28 22:43:58 --> Unknown column 'id_barang' in 'field list'
+CRITICAL - 2024-02-28 22:44:33 --> Too few arguments to function App\Controllers\Home::delete_barang(), 0 passed in C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->delete_barang()
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

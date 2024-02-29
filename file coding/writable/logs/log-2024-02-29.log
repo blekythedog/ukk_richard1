@@ -1,0 +1,69 @@
+ERROR - 2024-02-29 00:12:43 --> Table 'ukk_kasir.keranjang' doesn't exist
+CRITICAL - 2024-02-29 00:12:43 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(401): App\Models\M_model->tampil('keranjang')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-29 00:36:30 --> Unknown column 'barang_id' in 'where clause'
+ERROR - 2024-02-29 00:36:40 --> Table 'ukk_kasir.keranjang' doesn't exist
+CRITICAL - 2024-02-29 00:36:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(401): App\Models\M_model->tampil('keranjang')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-29 00:40:26 --> syntax error, unexpected '$awal' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\ukk_richard\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/laporan_tr...')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/laporan_tr...')
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-29 00:41:19 --> Invalid file: laporan_t.php
+#0 C:\xampp\htdocs\ukk_richard\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_t.php')
+#1 C:\xampp\htdocs\ukk_richard\system\Common.php(1089): CodeIgniter\View\View->render('laporan_t', Array, true)
+#2 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(362): view('laporan_t', Array)
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->laporan_t()
+#4 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-02-29 00:43:55 --> Unknown column 'barang_masuk.tanggal' in 'where clause'
+CRITICAL - 2024-02-29 00:43:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(377): App\Models\M_model->filter3('barang_masuk', '2024-02-26', '2024-02-29')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->excel_t()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-29 00:45:41 --> Unknown column 'barang_id' in 'where clause'
+ERROR - 2024-02-29 00:48:10 --> Table 'ukk_kasir.keranjang' doesn't exist
+CRITICAL - 2024-02-29 00:48:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(474): App\Models\M_model->tampil('keranjang')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-29 00:48:10 --> Table 'ukk_kasir.keranjang' doesn't exist
+CRITICAL - 2024-02-29 00:48:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ukk_richard\app\Controllers\Home.php(474): App\Models\M_model->tampil('keranjang')
+#1 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ukk_richard\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ukk_richard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ukk_richard\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-29 00:49:55 --> Unknown column 'barang_id' in 'where clause'
+ERROR - 2024-02-29 00:50:50 --> Unknown column 'barang_id' in 'where clause'
+ERROR - 2024-02-29 01:09:32 --> Unknown column 'total_pesan' in 'field list'
+ERROR - 2024-02-29 01:23:31 --> Unknown column 'total_pesan' in 'field list'
