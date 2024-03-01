@@ -100,6 +100,14 @@ class Home extends BaseController
 
     }
 
+    public function delete_keranjang($id)
+{
+    $model = new M_model();
+    $where = array('id_keranjang' => $id);
+    $model->hapus('keranjang', $where);
+    return redirect()->to('home/keranjang');
+}
+
     public function aksi_edit_barang()
     {
         $hm = new M_model();
@@ -122,6 +130,30 @@ class Home extends BaseController
         $data['td'] = $hm->edit('barang', $data, $where);
         return redirect()->to('home/barang');
     }
+
+    public function aksi_edit_keranjang()
+    {
+        $hm = new M_model();
+        $a = $this->request->getpost('id');
+        $b = $this->request->getpost('keranjang');
+        $c = $this->request->getpost('pelanggan');
+        $d = $this->request->getpost('total_pesan');
+        $e = $this->request->getpost('harga');
+        $where = array('id_keranjang' => $a);
+
+        $data = array(
+            'keranjang' => $b,
+            'pelanggan' => $c,
+            'total_pesan' => $d,
+            'harga' => $e
+            // 'tanggal' => date('y-m-d'),
+
+        );
+
+        $data['dt'] = $hm->edit('keranjang', $data, $where);
+        return redirect()->to('home/keranjang');
+    }
+    
 
     public function tambah_barang()
     {
@@ -211,7 +243,7 @@ class Home extends BaseController
     public function transaksi()
     {
         $model = new M_model();
-        $data['dt'] = $model->tampil('barang');
+        $data['dt'] = $model->barangf('barang');
         echo view ('header');
         echo view ('menu');
         echo view ('transaksi', $data);
@@ -355,7 +387,7 @@ class Home extends BaseController
         $awal = $this->request->getpost('awal');
         $akhir = $this->request->getpost('akhir');
         $where = array('tanggal >' . $awal . 'and tanggal <' . $akhir);
-        $data['dt'] = $model->filter3('pembayaran' , $awal, $akhir);
+        $data['dt'] = $model->filter3('keranjang' , $awal, $akhir);
         // echo view('laporan_bm', $data);
         $dompdf = new Dompdf();
         $dompdf->set_option('isRemoteEnabled', TRUE);
@@ -407,6 +439,21 @@ class Home extends BaseController
     //     return redirect()->to('/home/dashboard');
     // }
 }
+
+    public function invoice()
+    {
+        $model = new M_model();
+        $data['dt'] = $model->tampil('keranjang');
+        // echo view('laporan_bm', $data);
+        $dompdf = new Dompdf();
+        $dompdf->set_option('isRemoteEnabled', TRUE);
+        $dompdf->loadHtml(view('invoice', $data));
+        $dompdf->setPaper('A4', 'landscape');
+        $dompdf->render();
+        // $dompdf -> stream();
+        $dompdf->stream('my.pdf', array('Attachment' => 0));
+        return redirect()->to('home/keranjang');
+    }
 
 
     public function activity()
@@ -467,6 +514,14 @@ class Home extends BaseController
 
     }
 
+    public function form_kembalian()
+    {
+        echo view ('header');
+        echo view ('menu');
+        echo view ('kembalian');
+        echo view ('footer');
+    }
+
     public function keranjang()
     {
         $model = new M_model();
@@ -490,6 +545,17 @@ class Home extends BaseController
         echo view ('footer');
     }
 
+    public function edit_keranjang($id)
+    {
+        $model = new M_model();
+        $where = array('id_keranjang' => $id);
+        $data['dt'] = $model->getWhere('keranjang', $where);
+        echo view ('header');
+        echo view ('menu');
+        echo view ('edit_keranjang', $data);
+        echo view ('footer');
+    }
+
     public function proses_pembayaran()
 {
     $model = new M_model();
@@ -497,19 +563,27 @@ class Home extends BaseController
     $b = $this->request->getPost('pelanggan');
     $c = $this->request->getPost('total_pesan');
     $d = $this->request->getPost('harga');
-    $id = $this->request->getPost('id_barang');
+    $e = $this->request->getPost('kembalian');    
 
     $isi = array(
-        'id_barang' => $id,
         'keranjang' => $a,
         'pelanggan' => $b,
         'total_pesan' => $c,
         'harga' => $d,
+        'kembalian' => $e,
         'tanggal' => date('Y-m-d')
     );
 
-    $model->simpan('pembayaran', $isi);
-    return redirect()->to('home/barang');
+    $model->simpan('keranjang', $isi);
+
+    $isi2 = array(
+        'id_pembayaran' => $a,
+        'pelanggan' => $b,
+        'harga' => $d,
+        'tanggal' => date('Y-m-d')
+    );
+    $model->simpan('pembayaran', $isi2);
+    return redirect()->to('home/keranjang');
 }
 
 // Function to update stock

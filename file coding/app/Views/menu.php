@@ -126,16 +126,25 @@
               </a>
             </li>
 
-            <!-- <?php if (session()->get('level') == 1) { ?>
+            <?php if (session()->get('level') == 1) { ?>
             <li class="menu-item">
               <a href="<?= base_url('home/keranjang') ?>" class="menu-link">
                 <i class="menu-icon tf-icons bi bi-bag-dash"></i>
                 <div data-i18n="Basic">Keranjang</div>
               </a>
             </li>
+            <?php } ?>
+
+            <!-- <?php if (session()->get('level') == 1) { ?>
+            <li class="menu-item">
+              <a href="<?= base_url('home/pembayaran') ?>" class="menu-link">
+                <i class="menu-icon tf-icons bi bi-bag-check"></i>
+                <div data-i18n="Basic">Detail Pembayaran</div>
+              </a>
+            </li>
             <?php } ?> -->
 
-            <?php if (session()->get('level') == 2) { ?>
+            <?php if (session()->get('level') == 1) { ?>
             <li class="menu-item">
               <a href="<?= base_url('home/activity') ?>" class="menu-link">
                 <i class="menu-icon tf-icons bi bi-wifi"></i>

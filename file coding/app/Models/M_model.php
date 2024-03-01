@@ -7,6 +7,9 @@ class M_model extends Model
 	public function tampil($table){
 		return $this->db->table($table)->get()->getResult();
 	}
+	public function barangf($table){
+		return $this->db->table($table)->where("barang.stok !=",0)->get()->getResult();
+	}
 
     public function input($table, $where){
 		return $this->db->table($table)->update($where);

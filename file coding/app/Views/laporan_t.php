@@ -66,6 +66,7 @@
                         <th>Nama Barang</th>
                         <th>Nama Supplier</th>
                         <th>Jumlah</th>
+                        <th>Harga</th>
                         <th>Tanggal Masuk</th>
                       </tr>
                     </thead>
@@ -86,6 +87,9 @@
                         </td>
                         <td>
                         <?= $table->total_pesan ?>
+                        </td>
+                        <td>
+                        <?= $table->harga ?>
                         </td>
                         <td>
                         <?= $table->tanggal ?>

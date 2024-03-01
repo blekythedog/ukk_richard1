@@ -1,6 +1,6 @@
-<a href="<?= base_url('home/t_barang') ?>" style="padding-left : 25px; padding-top : 10px;">
+<a href="<?= base_url('home/invoice') ?>" style="padding-left : 25px; padding-top : 10px;">
                         <button class="btn btn-success">
-                            <i class="bi bi-bag-plus"></i>
+                            Print Struk
                         </button>
                     </a>
 <div class="container" style="padding-top : 20px;">
@@ -44,12 +44,12 @@
                         <?= $table->tanggal ?>
                         </td>
                         <td>
-                           <a>
+                           <a href="<?= base_url('home/edit_keranjang/' . $table->id_keranjang) ?> ">
                             <button class="btn btn-primary">
                                 <i class="bi bi-pen"></i>
                             </button>
                            </a>
-                           <a href="<?= base_url('home/delete_barang'. $table->id_barang) ?>">
+                           <a href="<?= base_url('home/delete_keranjang/'. $table->id_keranjang) ?>">
                             <button class="btn btn-danger">
                                 <i class="bi bi-trash"></i>
                             </button>
@@ -66,10 +66,42 @@
                 </div>
               </div>
               <div style="padding-top : 20px;">
-              <a href="<?= base_url('home/delete_barang') ?>">
+              <a href="<?= base_url('home/transaksi') ?>">
                             <button class="btn btn-primary">
-                               submit
+                               Back
                             </button>
                            </a>
                         </div>
 </div>
+
+<script>
+    function printInvoice() {
+        // Make AJAX request to run the invoice code
+        $.ajax({
+            url: '<?= base_url('home/invoice') ?>',
+            method: 'GET',
+            success: function(response) {
+                // Invoice code executed successfully
+
+                // Make AJAX request to delete all data from the 'keranjang' table
+                $.ajax({
+                    url: '<?= base_url('home/delete_keranjang/') ?>', // Update the URL accordingly
+                    method: 'POST', // or 'GET' depending on your server configuration
+                    success: function(response) {
+                        // Data in 'keranjang' table deleted successfully
+                        // Redirect to the 'keranjang' page
+                        window.location.href = '<?= base_url('keranjang') ?>';
+                    },
+                    error: function(xhr, status, error) {
+                        // Handle errors if any during deletion
+                        console.error(xhr.responseText);
+                    }
+                });
+            },
+            error: function(xhr, status, error) {
+                // Handle errors if any during invoice code execution
+                console.error(xhr.responseText);
+            }
+        });
+    }
+</script>

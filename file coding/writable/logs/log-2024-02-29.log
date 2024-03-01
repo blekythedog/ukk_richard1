@@ -67,3 +67,97 @@ ERROR - 2024-02-29 00:49:55 --> Unknown column 'barang_id' in 'where clause'
 ERROR - 2024-02-29 00:50:50 --> Unknown column 'barang_id' in 'where clause'
 ERROR - 2024-02-29 01:09:32 --> Unknown column 'total_pesan' in 'field list'
 ERROR - 2024-02-29 01:23:31 --> Unknown column 'total_pesan' in 'field list'
+ERROR - 2024-02-29 18:39:57 --> Unknown column 'total_pesan' in 'field list'
+ERROR - 2024-02-29 18:43:41 --> Unknown column 'total_pesan' in 'field list'
+ERROR - 2024-02-29 18:45:00 --> Unknown column 'total_pesan' in 'field list'
+CRITICAL - 2024-02-29 18:55:45 --> syntax error, unexpected '0' (T_LNUMBER), expecting ')'
+#0 C:\xampp\htdocs\ukk_richard1\file coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ukk_richard1\file coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\xampp\htdocs\ukk_richard1\file coding\app\Controllers\Home.php(69): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#5 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_richard1\file coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_richard1\file coding\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-02-29 19:03:55 --> Unknown column 'total_pesan' in 'field list'
+ERROR - 2024-02-29 19:30:45 --> Unknown column 'total_pesan' in 'field list'
+CRITICAL - 2024-02-29 19:32:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ukk_richard1\file coding\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ukk_richard1\file coding\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ukk_richard1\file coding\app\Controllers\Home.php(108): CodeIgniter\Model->__call('getSingleKeranj...', Array)
+#3 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(832): App\Controllers\Home->delete_keranjang('5')
+#4 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard1\file coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard1\file coding\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-29 19:33:11 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ukk_richard1\file coding\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ukk_richard1\file coding\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ukk_richard1\file coding\app\Controllers\Home.php(108): CodeIgniter\Model->__call('getSingleKeranj...', Array)
+#3 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(832): App\Controllers\Home->delete_keranjang('5')
+#4 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard1\file coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard1\file coding\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-02-29 19:42:31 --> Unknown column 'total_pesan' in 'field list'
+ERROR - 2024-02-29 19:49:17 --> Unknown column 'total_pesan' in 'field list'
+ERROR - 2024-02-29 19:57:45 --> Unknown column 'total_pesan' in 'field list'
+ERROR - 2024-02-29 20:12:12 --> Unknown column 'total_pesan' in 'field list'
+ERROR - 2024-02-29 20:13:39 --> Unknown column 'total_pesan' in 'field list'
+CRITICAL - 2024-02-29 20:30:03 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ukk_richard1\file coding\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ukk_richard1\file coding\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ukk_richard1\file coding\system\Common.php(1089): CodeIgniter\View\View->render('edit_keranjang', Array, true)
+#3 C:\xampp\htdocs\ukk_richard1\file coding\app\Controllers\Home.php(532): view('edit_keranjang', Array)
+#4 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(832): App\Controllers\Home->edit_keranjang('10')
+#5 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_richard1\file coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_richard1\file coding\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-29 20:30:08 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ukk_richard1\file coding\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ukk_richard1\file coding\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ukk_richard1\file coding\system\Common.php(1089): CodeIgniter\View\View->render('edit_keranjang', Array, true)
+#3 C:\xampp\htdocs\ukk_richard1\file coding\app\Controllers\Home.php(532): view('edit_keranjang', Array)
+#4 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(832): App\Controllers\Home->edit_keranjang('10')
+#5 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_richard1\file coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_richard1\file coding\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-29 20:30:10 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ukk_richard1\file coding\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ukk_richard1\file coding\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ukk_richard1\file coding\system\Common.php(1089): CodeIgniter\View\View->render('edit_keranjang', Array, true)
+#3 C:\xampp\htdocs\ukk_richard1\file coding\app\Controllers\Home.php(532): view('edit_keranjang', Array)
+#4 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(832): App\Controllers\Home->edit_keranjang('10')
+#5 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ukk_richard1\file coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ukk_richard1\file coding\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-29 21:17:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ukk_richard1\file coding\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ukk_richard1\file coding\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ukk_richard1\file coding\app\Controllers\Home.php(145): CodeIgniter\Model->__call('get_harga_from_...', Array)
+#3 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_edit_keranjang()
+#4 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard1\file coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard1\file coding\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-29 21:18:12 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ukk_richard1\file coding\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ukk_richard1\file coding\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ukk_richard1\file coding\app\Controllers\Home.php(145): CodeIgniter\Model->__call('get_harga_from_...', Array)
+#3 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_edit_keranjang()
+#4 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ukk_richard1\file coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_richard1\file coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_richard1\file coding\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
